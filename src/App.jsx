@@ -11,7 +11,7 @@ function App() {
   const passGenerate = ()=>{}
   return (
     <>
-     <h1>Password Generator</h1>
+     <h1 className='text-4xl text-center text-black'>Password Generator</h1>
     </>
   )
 }
