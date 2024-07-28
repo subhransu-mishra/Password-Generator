@@ -20,6 +20,8 @@
   background-color: brown;
   border-radius: 10px;
   font-weight: bold;
+  cursor: pointer;
+  
 }
 .btn:hover{
   opacity: 0.87;
