@@ -18,6 +18,7 @@ function App() {
     }
     setPass(password);
   }, [length, allowNumber, allowCharacter]);
+  
     useEffect(() => {
      passwordGenerator(); 
     }, [passwordGenerator]); 
@@ -41,7 +42,7 @@ function App() {
                 defaultChecked = {allowNumber} 
                 onChange = {
                   ()=>{
-                    setAllowNumber((prev)=>!prev)
+                    setAllowNumber((prevValue)=>!prevValue)
                   }
                     }>
             </input>
@@ -52,7 +53,7 @@ function App() {
                 defaultChecked = {allowCharacter} 
                 onChange = {
                   ()=>{
-                    setAllowCharacter((prev)=>!prev)
+                    setAllowCharacter((prevValue)=>!prevValue)
                   }
                     }>
             </input>
