@@ -20,9 +20,10 @@ function App() {
   }, [length, allowNumber, allowCharacter]);
   
     useEffect(() => {
+      
      passwordGenerator(); 
     }, [passwordGenerator]); 
-
+    
 
   return (
     <>
